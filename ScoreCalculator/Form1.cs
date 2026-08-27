@@ -45,6 +45,10 @@ namespace ScoreCalculator
             {
                 score = parsedScore;
             }
+            else
+            {
+                score = 0;
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
